@@ -26,7 +26,7 @@ p {
 
 .nav_container {
     display: grid;
-    border-bottom: 3px solid #5e9bac ;
+    border-bottom: 5px solid #5e9bac ;
     column-gap: 10px;
     grid-column-start: 1;
     grid-column-end: 5;
@@ -196,10 +196,12 @@ h3 {
 
 .sidebar_container {
     display: grid;
-    column-gap: 10px;
+    column-width: 500px;
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: rgb(221, 183, 12);
+
+
+    padding-left: 2rem;
     color: antiquewhite;
     font-size: 2rem;
 
@@ -218,6 +220,7 @@ h3 {
     color:#404143;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 .experience_box {
@@ -243,6 +246,7 @@ li {
 .main_heading {
     color:#404143;
     font-family: 'Lato', sans-serif;
+    font-size: 2rem;
 }
 
 /* Main Section */
@@ -309,12 +313,13 @@ li {
 /* Footer */
 .footer_container {
     display: grid;
+    border-top: 5px solid #5e9bac;
+    font-family: 'Lato', sans-serif;
+    color: #404143;
+    text-align: center;
     column-gap: 10px;
     grid-column-start: 1;
     grid-column-end: 5;
-    background-color: rgb(32, 28, 7);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: antiquewhite;
     font-size: 2rem;
     padding: 0.5rem;
 }

@@ -45,13 +45,17 @@ p {
 }
 
 .menu-item {
+
+    text-align: center;
     display: inline;
     grid-column-start: 2;
     grid-column-end: 4;
+
 ;
 }
 
 .menu {
+ 
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: medium;
